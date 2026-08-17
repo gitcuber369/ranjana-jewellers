@@ -36,6 +36,10 @@ yarn-error.log*
 # vercel
 .vercel
 
+# source images, migrated to Supabase Storage — no longer referenced by the app
+/public/ranjana-jewellers/
+/public/ranjana-jewellers-compressed/
+
 # typescript
 *.tsbuildinfo
 next-env.d.ts
